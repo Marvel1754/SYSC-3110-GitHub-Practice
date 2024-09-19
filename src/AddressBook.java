@@ -1,3 +1,5 @@
+// Testing Git pull in IntelliJ
+
 import java.util.ArrayList;
 
 public class AddressBook {
