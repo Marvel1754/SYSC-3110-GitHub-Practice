@@ -23,6 +23,9 @@ public class AddressBook {
 
     }
 
+    public void dummyMethod2() {
+
+    }
     /**
      * Remove a buddy from the address book.
      * @param buddy buddy to be removed from the address book.
