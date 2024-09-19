@@ -9,14 +9,17 @@ public class AddressBook {
 
     /**
      * Adds a Buddy to the list of buddies in the address book.
-     * @param buddy: BuddyInfo object to add a buddy.
+     * @param buddy buddy to be added to the address book.
      */
     public void addBuddy(BuddyInfo buddy) {
-        buddyInfos.add(buddy);
+        if (buddy != null) {
+            buddyInfos.add(buddy);
+        }
     }
 
     /**
      * Remove a buddy from the address book.
+     * @param buddy buddy to be removed from the address book.
      */
     public void removeBuddy(BuddyInfo buddy) {
         buddyInfos.remove(buddy);
@@ -29,6 +32,5 @@ public class AddressBook {
         BuddyInfo aBuddy = new BuddyInfo();
         myBuddies.addBuddy(aBuddy);
         myBuddies.removeBuddy(aBuddy);
-
     }
 }
