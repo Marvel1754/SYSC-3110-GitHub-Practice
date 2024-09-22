@@ -27,7 +27,7 @@ public class AddressBook {
 
     }
 
-    public void dummyMethod3() {
+    public void dummyMethod3() { // Test for git commit3
 
     }
 
